@@ -1,0 +1,99 @@
+
+body{
+    background-color: aquamarine;
+}
+header{
+    display: flex;
+    justify-content: center;
+    background-color: royalblue;
+    color: aliceblue;
+    font-weight: bolder;
+    text-transform: capitalize;
+    border-style: solid;
+    border-color: royalblue;
+    padding: 8px;
+    
+}
+
+.ok:hover{
+    cursor: alias, grab;
+}
+
+main{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10%;
+}
+.formulaire{
+    background: darkgray;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: darkgray;
+    width:600px;
+   
+    
+}
+
+
+
+input{
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.form_elt{
+    background: darkgray;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: darkgray;
+    width:300px;
+    padding: 8px;
+    
+}
+
+.ok{
+    border-style: solid;
+    border-radius: 8px;
+    width: 50px;
+    padding: 8px;
+    border-color: springgreen;
+    background-color:springgreen;
+}
+
+.reponse{
+    color: royalblue;
+    background:black;
+    padding: 8px;
+    font-weight: bold;
+    border-style: solid;
+    border-radius: 10px;
+    border-color:black;
+    width: 200px;
+}
+
+.form_elt{
+    display: flex;
+	align-items: center;
+	gap: 16px;
+	margin-bottom: 16px;
+}
+
+.trouver{
+    color: black;
+    background:yellow;
+    padding: 8px;
+    font-weight: bold;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: yellow;
+}
+
+.erreur{
+    color: black;
+    background:pink;
+    padding: 8px;
+    font-weight: bold;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: red;
+}
